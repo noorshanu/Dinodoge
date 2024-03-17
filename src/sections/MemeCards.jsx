@@ -37,7 +37,7 @@ function MemeCards() {
           </div>
        
 
-        <div className=" max-w-xl">
+        <div className=" max-w-full sm:max-w-xl">
           <RoadmapCards/>
 
         </div>

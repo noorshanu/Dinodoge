@@ -16,13 +16,13 @@ function Hero() {
                 />
               </div>
             </div>
-            <div className=" w-full">
+            <div className=" w-full hidden sm:block">
               <div>
                 <img src="images/hero3.png" alt="" className=" mx-auto " />
               </div>
             </div>
 
-            <div className=" w-full">
+            <div className=" w-full hidden sm:block">
               <div>
                 <img
                   src="images/hero2.png"
