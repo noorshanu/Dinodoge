@@ -15,7 +15,7 @@ function AppLayout() {
 
         <Hero />
       </main>
-      <div className=" h-[70px]  py-4  mb-2 bg-[#000130] ">
+      <div className=" h-[100px]  py-4  mb-2 bg-[#224609] ">
         <MemeMark />
       </div>
 
@@ -23,10 +23,12 @@ function AppLayout() {
         <dl className="h-[50px]" />
         <Intro />
         <dl className="h-[50px]" />
+        <div className=" bg-[#224609]">
         <MemeCards />
-        <div>
-          <Partner />
         </div>
+        {/* <div>
+          <Partner />
+        </div> */}
       </div>
       <Footer />
     </>

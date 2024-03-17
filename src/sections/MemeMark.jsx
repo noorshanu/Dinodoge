@@ -5,151 +5,24 @@ function MemeMark() {
   return (
     <>
       <section>
-        <div>
+        <div className=" pb-4"> 
           <Marquee>
-            <img
-              src="images/icon-one.png"
-              alt=""
-              className="h-[40px] w-auto px-2"
-            />
-
-            <h2 className="text-2xl text-center px-1 font-groot-one ">GROOT</h2>
-
-            <img
-              src="images/logo3.png"
-              alt=""
-              className="h-[40px] w-auto px-2"
-            />
-
-            <img
-              src="images/icon-two.png"
-              alt=""
-              className="h-[40px] w-auto px-2"
-            />
-
-            <h2 className="text-2xl text-center px-1 font-groot-one ">GROOT</h2>
-
-            <img
-              src="images/logo3.png"
-              alt=""
-              className="h-[40px] w-auto px-2"
-            />
-
-            <img
-              src="images/icon-one.png"
-              alt=""
-              className="h-[40px] w-auto px-2"
-            />
-
-            <h2 className="text-2xl text-center px-1 font-groot-one ">GROOT</h2>
-
-            <img
-              src="images/logo3.png"
-              alt=""
-              className="h-[40px] w-auto px-2"
-            />
-
-            <img
-              src="images/icon-two.png"
-              alt=""
-              className="h-[40px] w-auto px-2"
-            />
-
-            <h2 className="text-2xl text-center px-1 font-groot-one ">GROOT</h2>
-
-            <img
-              src="images/logo3.png"
-              alt=""
-              className="h-[40px] w-auto px-2"
-            />
-
-            <img
-              src="images/icon-one.png"
-              alt=""
-              className="h-[40px] w-auto px-2"
-            />
-
-            <h2 className="text-2xl text-center px-1 font-groot-one ">
-              GROOT New ATH
-            </h2>
-
-            <img
-              src="images/logo3.png"
-              alt=""
-              className="h-[40px] w-auto px-2"
-            />
-
-            <img
-              src="images/icon-two.png"
-              alt=""
-              className="h-[40px] w-auto px-2"
-            />
-
-            <h2 className="text-2xl text-center px-1 font-groot-one ">
-              To The Moon
-            </h2>
-
-            <img
-              src="images/logo3.png"
-              alt=""
-              className="h-[40px] w-auto px-2"
-            />
-
-            <img
-              src="images/icon-one.png"
-              alt=""
-              className="h-[40px] w-auto px-2"
-            />
-
-            <h2 className="text-2xl text-center px-1 font-groot-one ">GROOT</h2>
-
-            <img
-              src="images/logo3.png"
-              alt=""
-              className="h-[40px] w-auto px-2"
-            />
-
-            <img
-              src="images/icon-two.png"
-              alt=""
-              className="h-[40px] w-auto px-2"
-            />
-
-            <h2 className="text-2xl text-center px-1 font-groot-one ">GROOT</h2>
-
-            <img
-              src="images/logo3.png"
-              alt=""
-              className="h-[40px] w-auto px-2"
-            />
-
-            <img
-              src="images/icon-one.png"
-              alt=""
-              className="h-[40px] w-auto px-2"
-            />
-
-            <h2 className="text-2xl text-center px-1 font-groot-one ">GROOT</h2>
-
-            <img
-              src="images/logo3.png"
-              alt=""
-              className="h-[40px] w-auto px-2"
-            />
-
-            <img
-              src="images/icon-two.png"
-              alt=""
-              className="h-[40px] w-auto px-2"
-            />
-
-            <h2 className="text-2xl text-center px-1 font-groot-one ">GROOT</h2>
-
-            <img
-              src="images/logo3.png"
-              alt=""
-              className="h-[40px] w-auto px-2"
-            />
+          <img src="part/bsc.svg" alt="" className=" w-[180px] h-auto px-4 " />
+          <img src="part/img2.png" alt="" className=" w-[180px] h-auto px-4 " />
+          <img src="part/img3.png" alt="" className=" w-[180px] h-auto px-4 " />
+          <img src="part/img4.png" alt="" className=" w-[180px] h-auto px-4 " />
+          <img src="part/img5.png" alt="" className=" w-[180px] h-auto px-4 " />
+          <img src="part/img6.png" alt="" className=" w-[180px] h-auto px-4 " />
+          <img src="part/img7.png" alt="" className=" w-[180px] h-auto px-4" />
+          <img src="part/img8.png" alt="" className=" w-[180px] h-auto px-4 " />
+          <img src="part/img9.png" alt="" className=" w-[180px] h-auto px-4 " />
+          <img src="part/img10.png" alt="" className=" w-[180px] h-auto px-4 " />
+          <img src="part/img11.png" alt="" className=" w-[180px] h-auto  px-4" />
+          <img src="part/img12.png" alt="" className=" w-[180px] h-auto  px-4" />
+          <img src="part/raid.svg" alt="" className=" w-[180px] h-auto  px-4" />
+          <img src="part/img14.png" alt="" className=" w-[180px] h-auto px-4 " />
+          <img src="part/img15.png" alt="" className=" w-[180px] h-auto px-4 " />
+          <img src="part/img16.png" alt="" className=" w-[180px] h-auto px-4 " />
           </Marquee>
         </div>
       </section>

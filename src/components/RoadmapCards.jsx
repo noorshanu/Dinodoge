@@ -24,7 +24,7 @@ function RoadmapCards() {
       >
         <SwiperSlide>
           <img
-            src="images/suchicat1.jpeg"
+            src="images/img1.webp"
             alt=""
             className=" rounded-xl border-black border"
           />
@@ -32,7 +32,7 @@ function RoadmapCards() {
 
         <SwiperSlide>
           <img
-            src="images/suchicat3.jpeg"
+            src="images/img3.webp"
             alt=""
             className=" rounded-xl border-black border m-4"
           />
@@ -40,7 +40,7 @@ function RoadmapCards() {
 
         <SwiperSlide>
           <img
-            src="images/suchicat4.jpeg"
+            src="images/img4.webp"
             alt=""
             className=" rounded-xl border-black border m-4"
           />
@@ -48,22 +48,16 @@ function RoadmapCards() {
 
         <SwiperSlide>
           <img
-            src="images/suchicat5.jpeg"
+            src="images/img5.webp"
             alt=""
             className=" rounded-xl border-black border m-4"
           />
         </SwiperSlide>
 
-        <SwiperSlide>
-          <img
-            src="images/suchicat6.jpeg"
-            alt=""
-            className=" rounded-xl border-black border m-4"
-          />
-        </SwiperSlide>
+       
       </Swiper>
 
-      <div className="flex items-center space-x-5 justify-center">
+      <div className="flex items-center space-x-5 justify-center mt-4">
         <SliderNavigationButton id="prevEl" className="rotate-180" />
         <SliderNavigationButton id="nextEl" />
       </div>
