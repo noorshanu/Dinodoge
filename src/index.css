@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "ninja";
+  src: url("/fonts/ninja.ttf");
+}
+
+.font-ninja{
+  font-family: "ninja";
+}
+
+@font-face {
+  font-family: "sushi-one";
+  src: url("/fonts/Marker Felt.ttf");
+}
+
+.font-sushi-one{
+  font-family: "sushi-one";
+}
+@font-face {
+  font-family: "sushi-two";
+  src: url("/fonts/sushi-cat-two.ttf");
+}
+
+.font-sushi-two{
+  font-family: "sushi-two";
+}
+
+@font-face {
+  font-family: "groot-one";
+  src: url("/fonts/groot-one.ttf");
+}
+
+.font-groot-one{
+  font-family: "groot-one";
+}
+
+
+
+@layer base {
+  * {
+    @apply font-quantico;
+  }
+
+  html,
+  body {
+    @apply bg-[#000130] text-white  ;
+  }
+
+  .container-wrapper {
+    @apply max-w-[1240px] w-[90%] mx-auto;
+  }
+  a{
+    @apply font-groot-one
+  }
+
+}
+
+
+.bg-main{
+  background-image: url(/images/bg2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center ; */
+}
+
+.big-info__inner {
+  background:  #3B062F;
+  background-size: cover, cover;
+  border-radius: 12px;
+  display: flex;
+  align-items: flex-center;
+  justify-content: space-between;
+}
+
+.floating {
+  animation-name: floating;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
+@media (max-width:768px) {
+  .big-info__inner {
+  flex-direction: column;
+  }  
+}
+
+.swiper {
+  width: 100%;
+  height: 400px;
+}
