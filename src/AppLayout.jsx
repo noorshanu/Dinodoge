@@ -6,6 +6,7 @@ import MemeMark from "./sections/MemeMark";
 import Partner from "./sections/Partner";
 import MemeCards from "./sections/MemeCards";
 import Footer from "./sections/Footer";
+import RoadMap from "./sections/RoadMap";
 
 function AppLayout() {
   return (
@@ -25,6 +26,9 @@ function AppLayout() {
         <dl className="h-[50px]" />
         <div className=" bg-[#224609]">
         <MemeCards />
+        </div>
+        <div>
+          <RoadMap/>
         </div>
         {/* <div>
           <Partner />
