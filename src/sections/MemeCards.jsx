@@ -13,26 +13,24 @@ function MemeCards() {
       <div className=" flex items-center gap-4 justify-between flex-col sm:flex-row">
       
         <div className=" w-full">
-            <p className="font-medium font-groot-one text-xl sm:text-3xl text-white  py-2">
-              Introducing Baby Groot Coin: The Rootin'-Tootin' Crypto Companion
-              Inspired by the Guardian of the Galaxy!
+            <p className=" font-groot-one text-xl sm:text-3xl text-white font-semibold  py-2">
+            DinoDoge isn't your average meme coin - he's the next viral meme! 
             </p>
             <h1 className=" text-xl sm:text-2xl py-3  font-groot-one text-white  font-medium">
-              Groot NFTs: Step into the cosmic realm with our exclusive
-              collection of Groot NFTs. Each one as unique and endearing as our
-              beloved Baby Groot himself!
+              1. DinoDoge Game: Adventure awaits! Explore, collect, and have a blast in our dino-filled jungle!
             </h1>
 
             <h1 className=" text-xl sm:text-2xl py-3 font-groot-one  text-white font-medium">
-              GrootBot: Our trusty GrootBot is here to assist you in navigating
-              the crypto universe. Stay on top of market trends while grooving
-              to the beats of Groot's tunes!
+              2. DinoDoge Pet Store: Adopt your virtual pet today! Find the perfect furry friend in our sanctuary.
             </h1>
 
             <h1 className=" text-xl sm:text-2xl py-3 font-groot-one text-white font-medium">
-              24/7 Galactic Community: Join our intergalactic community and
-              let's grow together as we protect the galaxy and spread Groot's
-              message of unity and friendship! We are Groot!
+              3. Staking: Earn rewards effortlessly! Support DinoDoge and hodl for rewards.
+
+            </h1>
+            <h1 className=" text-xl sm:text-2xl py-3 font-groot-one text-white font-medium">
+              3. Meme Creation: Laugh non-stop with our hilarious memes! Join the fun in the solana jungle!
+
             </h1>
           </div>
        

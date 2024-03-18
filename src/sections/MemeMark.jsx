@@ -5,7 +5,7 @@ function MemeMark() {
   return (
     <>
       <section>
-        <div className=" pb-4"> 
+        <div className=" mb-4"> 
           <Marquee>
           <img src="part/bsc.svg" alt="" className=" w-[180px] h-auto px-4 " />
           <img src="part/img2.png" alt="" className=" w-[180px] h-auto px-4 " />
